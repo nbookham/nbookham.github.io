@@ -1,0 +1,28 @@
+---
+title: Home
+header: Hi, I'm Nathan 👋
+lead: Welcome to my homepage!
+---
+
+<div class="py-3 py-md-4 py-lg-5">
+  <div class="container">
+    <h1 class="display-4">{{ page.header }}</h1>
+    <p class="lead">{{ page.lead }}</p>
+      <button type="button" class="btn btn-primary visually-hidden" data-bs-toggle="modal" data-bs-target="#contactmodal">
+        ✉️ Contact Me
+      </button>
+  </div>
+</div>
+<div class="modal fade" id="contactmodal" tabindex="-1" aria-labelledby="contactmodal-label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal-label">Contact Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Coming soon
+      </div>
+    </div>
+  </div>
+</div>
