@@ -4,3 +4,15 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons";
+
+/* Custom button colours */
+$color-github:#1B1F23;
+$color-spotify:#25D34E;
+
+.btn-github {
+  @include button-variant($color-github, $color-github);
+}
+
+.btn-spotify {
+  @include button-variant($color-spotify, $color-spotify);
+}

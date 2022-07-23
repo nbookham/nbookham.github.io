@@ -8,21 +8,9 @@ lead: Welcome to my homepage!
   <div class="container">
     <h1 class="display-4">{{ page.header }}</h1>
     <p class="lead">{{ page.lead }}</p>
-      <button type="button" class="btn btn-primary visually-hidden" data-bs-toggle="modal" data-bs-target="#contactmodal">
-        ✉️ Contact Me
-      </button>
-  </div>
-</div>
-<div class="modal fade" id="contactmodal" tabindex="-1" aria-labelledby="contactmodal-label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modal-label">Contact Me</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Coming soon
-      </div>
+    <div class="container" id="links">
+      <a class="btn btn-github" href="https://github.com/nbookham/">{% include icon.html name='github' %} GitHub</a>
+      <a class="btn btn-spotify" href="https://open.spotify.com/user/31t5og3kk5d52g3apte5ba6nh7mq?si=eb337c8a8aab47c7">{% include icon.html name='spotify' %} Spotify</a>
     </div>
   </div>
 </div>
