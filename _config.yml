@@ -9,7 +9,7 @@ markdown: kramdown
 
 # SASS
 sass:
-  style: :compressed
+  style: compressed
 
 # Defaults
 defaults:
