@@ -18,6 +18,10 @@ defaults:
     values:
       layout: default
 
+# Include
+include:
+  - _redirects
+
 # Exclude
 exclude:
   - assets/js/bootstrap.bundle.min.js
